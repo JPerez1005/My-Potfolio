@@ -977,7 +977,7 @@ footer {
     width: calc(100% - 12px);
     background: var(--gradient-color-bg);
     border-radius: 50%;
-    color: #fff;
+    color: #000;
     place-items: center;
     font-size: 25px;
 }

@@ -2,7 +2,7 @@ let d=document;
 
 // active hamburguerx menu
 let menuIcon = d.querySelector('.menu_icon');
-let navlist = document.querySelector(".navlist")
+let navlist = d.querySelector(".navlist");
 menuIcon.addEventListener("click",()=>{
     menuIcon.classList.toggle("active");
     navlist.classList.toggle("active");
@@ -14,7 +14,7 @@ navlist.addEventListener("click",()=>{
     navlist.classList.remove("active");
     menuIcon.classList.remove("active");
     document.body.classList.remove("open");
-})
+});
 
 
 //rotate text js code
@@ -85,7 +85,7 @@ const progress_bars = document.querySelectorAll(".skills svg circle");
 window.addEventListener("scroll",()=>{
     if(!skillsPlayed)
     skillsCounter();
-})
+});
 
 
 function hasReached(el){
