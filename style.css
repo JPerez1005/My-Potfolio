@@ -145,7 +145,8 @@ ul.navlist {
 .img_hero img {
     border-radius: 50%;
     width: 400px;
-    top: 50px;
+    top: 55px;
+    right: 5px;
 }
 
 /* ===================== home section css code ===================== */
