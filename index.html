@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/index.css">
     <!-- boxicon csss link -->
     <!-- iconos -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -16,12 +16,12 @@
     <header>
         <a href="#" class="logo"><span>J</span>ulián</a>
         <ul class="navlist">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="active" data-i18n="home">Home</a></li>
+            <li><a href="#about" data-i18n="about">About</a></li>
+            <li><a href="#services" data-i18n="services">Services</a></li>
+            <li><a href="#portfolio" data-i18n="portfolio">Portfolio</a></li>
+            <li><a href="#blog" data-i18n="blog">Blog</a></li>
+            <li><a href="#contact" data-i18n="contact">Contact</a></li>
         </ul>
         <div class="right_header">
             <a href="#" class="btn">Let's chat <i class='bx bx-message-rounded-dots'></i></a>
@@ -65,10 +65,10 @@
             </div>
         </div>
         <div class="img_hero">
-            <img src="img/yo4.png" alt="">
+            <img src="img/yo4.jpg" alt="">
             <div class="rotate_text">
                 <div class="text">
-                    <p>I'm FullStack Developer          I'm Designer</p>
+                    <p>I am FullStack Developer          I am Designer</p>
                 </div>
                 <span><i></i></span>
             </div>
@@ -232,7 +232,6 @@
                 </div>
             </div>
 
-
             <div class="portfolio-box mix dev">
                 <div class="portfolio-content">
                     <h3>Java</h3>
@@ -267,6 +266,17 @@
                 </div>
                 <div class="portfolio-img">
                     <img src="img/portfolio/Javascript.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix dev">
+                <div class="portfolio-content">
+                    <h3>C# with .net</h3>
+                    <p>C# and .NET developer skilled in fundamentals, OOP, Entity Framework for data, Blazor WebAssembly for web UIs, and API development.</p>
+                    <a href="/pages/certificado_c.html" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="/img/portfolio/c2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -518,6 +528,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- mixitup cdn js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script type="module" src="main.js"></script>
 </body>
 </html>
