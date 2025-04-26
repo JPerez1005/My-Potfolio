@@ -14,7 +14,7 @@ export function initScrollProgress() {
   
       scrollProgress.addEventListener("click", () => {
         // document.documentElement.scrollTop = 0;
-        window.location.href="../index.html#portfolio";
+        window.location.href="https://jperez1005.github.io/My-Potfolio/index.html#portfolio";
       });
   
       scrollProgress.style.background = `conic-gradient(#fff ${scrollValue}%,#64babe ${scrollValue}%)`;
